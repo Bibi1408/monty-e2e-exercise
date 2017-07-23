@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Monty E2E exercise",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "chai": "^4.1.0"
+  },
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.24.0",
