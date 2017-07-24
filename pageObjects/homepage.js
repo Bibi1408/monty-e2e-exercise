@@ -1,7 +1,7 @@
 export const gotoPage = () => {
-    browser.url('/')
-}
+    browser.url('/');
+};
 
 export const hasLogo = () => {
-    browser.isVisible(".BrandLogo-img")
-}
+    browser.isVisible('.BrandLogo-img');
+};
