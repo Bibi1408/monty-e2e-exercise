@@ -20,8 +20,8 @@ export const oneFilterSelected = () => {
     const elementText = browser.getText('.Button.Filters-refineButton');
     expect(elementText).to.contain('1');
 };
-export const productMoreThanOneItem = () => {
-    browser.isVisible('.ProductList-products');
+export const productListHasItems = () => {
+    browser.element('.ProductList-products .Product');
 };
 export const clearFilters = () => {
     browser.click('.Refinements-clearButton');

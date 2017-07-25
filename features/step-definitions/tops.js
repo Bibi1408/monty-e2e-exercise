@@ -8,7 +8,7 @@ module.exports = function () {
     this.Given(/^I select colour Black$/, tops.selectColourBlack);
     this.When(/^I apply these filters$/, tops.applyColourFilter);
     this.Then(/^Filter button has 1 filter$/, tops.oneFilterSelected);
-    this.Then(/^Filter returns a product list$/, tops.productMoreThanOneItem);
+    this.Then(/^Filter returns a product list$/, tops.productListHasItems);
     this.Given(/^I clear all filters$/, tops.clearFilters);
     this.Then(/^Filter button has no filters$/, tops.noFiltersShown);
 };
