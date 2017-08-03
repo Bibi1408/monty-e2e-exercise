@@ -11,7 +11,8 @@ export const selectColourWhite = () => {
     browser.click('.Refinements.is-shown .ValueOption-item:nth-child(14)');
 };
 export const selectColourBlack = () => {
-    browser.click('.Refinements.is-shown .ValueOption-item:nth-child(1)');
+    browser.click('//*[contains(@class, "is-shown")]//*[text()="black"]//parent::button')
+
 };
 export const applyColourFilter = () => {
     browser.click('.Refinements-applyButton');

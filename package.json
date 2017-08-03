@@ -17,7 +17,7 @@
     "wdio-cucumber-reporter": "0.0.2",
     "wdio-dot-reporter": "0.0.6",
     "wdio-selenium-standalone-service": "0.0.8",
-    "webdriverio": "4.6.2"
+    "webdriverio": "^4.8.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js"
